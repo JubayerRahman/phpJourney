@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Day 2</title>
 </head>
 <body>
-    <?php
-     echo "Hello world of php <br/>";
-    //  scaler veriables (Holds only one pice of data)
-     $name = "Ohee";
-     $age = 24;
-     $float= 8.4040;
-     $bool = true;
+    <?php 
+    // Pree defined data (Super global data)
+     echo $_SERVER["DOCUMENT_ROOT"];
+     echo "<br/>";
+     echo $_SERVER["PHP_SELF"];
+     echo "<br/>";
+     echo $_SERVER["SERVER_NAME"];
+     echo "<br/>";
+     echo $_SERVER["REQUEST_METHOD"];
+     echo "<br/>";
+
+    //  use of get method
+    echo $_GET["name"];
+    echo "<br/>";
+    echo $_GET["age"];
     ?>
-    <P>Hi, my name is  <?php echo $name?>, I am learning php. I am <?php echo $age?> years old.</p>
 </body>
 </html>

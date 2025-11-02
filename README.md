@@ -7,4 +7,11 @@ Today i leanred what is php (Hypertext preprocessor)
 - lean how to setup new projects on it
 - learned about basic syntex of php <?php ?>
 - learned about veriables
+### Day 2 ###
+Today i just learned about the predefined global veriables like:
+- $_Server
+- $_Method
+- $_GET
+- $_post
+- $_request
 
